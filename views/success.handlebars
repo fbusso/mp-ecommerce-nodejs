@@ -1,0 +1,20 @@
+<!--
+ PAGO EXITOSO:
+ Se deberá mostrar la información proveniente de los 
+ parámetros que enviamos en el Query String como:
+ - payment_method_id que se usó para pagar, 
+ - el valor del campo external_reference
+ - el ID de pago (payment_id) de Mercado Pago
+-->
+
+<div class="layout-card-holder">
+	<h2 style="color:green">¡Tu pago fue aprobado!</h2>
+	<div style="border-color: green" class="card">
+		<span><b>Payment ID: </b>{{payment_id}}</span><br>
+		<span><b>Tipo de Pago: </b>{{payment_type}}</span><br>
+		<span><b>External reference: </b>{{external_reference}}</span><br>
+		<span><b>Preference ID: </b>{{preference_id}}</span><br>
+		<span><b>Site ID: </b>{{site_id}}</span>
+	</div>
+</div>
+

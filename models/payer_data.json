@@ -1,0 +1,20 @@
+{
+    "name": "Lalo",
+    "surname": "Landa",
+    "email": "test_user_63274575@testuser.com",
+    "phone": {
+        "area_code": "11",
+        "number": 22223333
+    },
+    "identification": {
+        "type": "",
+        "number": ""
+    },
+    "address": {
+        "zip_code": "1111",
+        "street_name": "Calle Falsa",
+        "street_number": 123
+
+    },
+    "date_created": ""
+}
