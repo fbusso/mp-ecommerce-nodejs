@@ -85,7 +85,7 @@ pagoController.registrarPago = async function(req, res) {
     preference.auto_return = "approved";
 
     let response = await mp.preferences.create(preference);
-    res.redirect(response.response.sandbox_init_point);
+    res.redirect(response.response.init_point);
 };
 
 module.exports = pagoController;
