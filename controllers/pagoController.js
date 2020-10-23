@@ -11,6 +11,7 @@ const INTEGRATOR_ID = config.integrator_id;
 const PUBLIC_KEY    = config.public_key;
 const ACCESS_TOKEN  = config.access_token;
 const COLLECTOR_ID  = config.collector_id;
+const URL = config.base_url;
 
 mp.configure({
     access_token: ACCESS_TOKEN,
@@ -31,7 +32,7 @@ pagoController.registrarPago = async function(req, res) {
             id: payload.id,                                 // String(256): identificador del ítem
             title: payload.title,                           // String(256): título del item. Se mostrará en el flujo de pago
             description: payload.description,               // String(256): Descripción del ítem
-            picture_url: payload.picture_url,               // String(600): URL de imagen del ítem
+            picture_url: URL+payload.picture_url,           // String(600): URL de imagen del ítem
             category_id: payload.category_id,               // String(256): identificador de categoría del ítem
             quantity: parseInt(payload.quantity),           // Integer    : cantidad de ítems
             currency_id: payload.currency_id,               // String(3)  : identificador de moenda (en formato ISO_4217)

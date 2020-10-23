@@ -6,5 +6,6 @@
     "success_endpoint"      : "https://fbusso-mp-ecommerce-nodejs.herokuapp.com/success",
     "pending_endpoint"      : "https://fbusso-mp-ecommerce-nodejs.herokuapp.com/pending",
     "failure_endpoint"      : "https://fbusso-mp-ecommerce-nodejs.herokuapp.com/failure",
-    "notification_endpoint" : "https://fbusso-mp-ecommerce-nodejs.herokuapp.com/payment_notification"
+    "notification_endpoint" : "https://fbusso-mp-ecommerce-nodejs.herokuapp.com/payment_notification",
+    "base_url"              : "https://fbusso-mp-ecommerce-nodejs.herokuapp.com/"
 }
