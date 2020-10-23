@@ -3,9 +3,8 @@
  https://www.mercadopago.com.ar/developers/es/reference/preferences/_checkout_preferences/post/
 */
 
-
 const mp = require('mercadopago');
-const config = require('../config/local-config');
+const config = require('../config/heroku-config');
 const payer_data = require('../models/payer_data');
 
 const INTEGRATOR_ID = config.integrator_id;
