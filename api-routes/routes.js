@@ -53,6 +53,7 @@ Se debe generar un endpoint que sea capaz de
 recibir nuestras notificaciones Webhook
 */
 router.post('/payment_notification', function(req) {
+    console.log('PAYMENT NOFITICATION\n');
     console.log(req.body);
 });
 
