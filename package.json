@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express":"*",
+    "mercadopago":"*",
     "express-handlebars": "^3.1.0"
   }
 }
